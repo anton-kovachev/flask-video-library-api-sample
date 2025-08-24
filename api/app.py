@@ -93,7 +93,7 @@ def seed_db(db, VideoModel):
     db.session.add(VideoModel(title='The mighty ducks', year=1993, views=1200))
     db.session.commit()
 
-if __name__ == 'app':
+if __name__ == '__main__':
     print("Starting app...")        
     with app.app_context():
         seed_db(db, VideoModel) 
