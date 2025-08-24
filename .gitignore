@@ -108,3 +108,6 @@ venv.bak/
 # Windows
 Thumbs.db
 Desktop.ini
+# Remove Scripts
+Scripts/
+
